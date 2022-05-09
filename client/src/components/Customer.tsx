@@ -8,6 +8,7 @@ const Customer:React.FC=():JSX.Element=> {
     }
     useEffect(()=>{x()},[]);
     return (
+
         <div>
             <button onClick={x}>fff</button>
             <h1>Clients Name</h1>
