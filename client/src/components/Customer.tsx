@@ -8,10 +8,11 @@ const Customer:React.FC=():JSX.Element=> {
     }
     useEffect(()=>{x()},[]);
     return (
-        <div className="App">
+        <div>
             <button onClick={x}>fff</button>
-            <h1>dddd</h1>
-            {customers.map((customer)=><div key={customer.id}>{customer.firstName}</div>)}
+            <h1>Clients Name</h1>
+            <h1 className=""></h1>
+            {customers.map((customer)=><div key={customer.id}>Name:{customer.firstName} {customer.lastName}</div>)}
         </div>
     );
 }
