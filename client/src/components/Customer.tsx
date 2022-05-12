@@ -11,7 +11,7 @@ const Customer:React.FC=():JSX.Element=> {
 
         <div>
             <button onClick={x}>fff</button>
-            <h1>Clients Name</h1>
+            <h1 className="container-fluid h-25">Clients Name</h1>
             <h1 className=""></h1>
             {customers.map((customer)=><div key={customer.id}>Name:{customer.firstName} {customer.lastName}</div>)}
         </div>
